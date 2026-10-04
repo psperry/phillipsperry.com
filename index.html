@@ -29,6 +29,11 @@ body.home-view header{background:rgba(15,24,20,.22)}
 .hero-content h1,.hero-description{text-shadow:0 2px 12px rgba(0,0,0,.35)}
 @media(max-width:600px){.photo-hero:after{background:linear-gradient(180deg,rgba(12,21,17,.22),rgba(12,21,17,.56) 35%,rgba(12,21,17,.18) 66%,transparent 88%)}}
 .lamp-concept{margin:25px 0 35px}.lamp-concept img{display:block;width:100%;height:auto}.lamp-concept figcaption{font-size:12px;color:var(--muted);margin-top:12px}.article:has(.lamp-concept){max-width:1050px}.lamp-mockup{object-fit:cover;object-position:left top;width:300%;max-width:none;height:200%}.visual.lamp{justify-content:flex-start;align-items:flex-start}
+/* Keep the sunset visible on wide screens; soften shading away from the copy. */
+.hero-original{object-position:center 72%}
+.photo-hero:after{background:linear-gradient(90deg,rgba(12,21,17,.42) 0%,rgba(12,21,17,.20) 32%,transparent 62%)}
+@media(min-width:1400px){.photo-hero{min-height:660px}.hero-original{object-position:center 65%}}
+@media(max-width:600px){.hero-original{object-position:67% 85%}.photo-hero:after{background:linear-gradient(180deg,rgba(12,21,17,.12),rgba(12,21,17,.40) 35%,rgba(12,21,17,.08) 66%,transparent 88%)}}
 </style>
 </head>
 <body>

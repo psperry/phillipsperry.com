@@ -11,3 +11,28 @@
   from = "/articles/:slug/"
   to = "/share-:slug.html"
   status = 200
+
+[[redirects]]
+  from = "/drafts/"
+  to = "/drafts.html"
+  status = 200
+
+[[redirects]]
+  from = "/drafts/:slug/"
+  to = "/draft-:slug.html"
+  status = 200
+
+[[headers]]
+  for = "/drafts/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+[[headers]]
+  for = "/drafts.html"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+[[headers]]
+  for = "/draft-*.html"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"

@@ -1,3 +1,9 @@
+
+[[redirects]]
+  from = "/drafts/whos-teaching-the-apprentices/"
+  to = "https://phillipsperry.com/articles/whos-teaching-the-apprentices/"
+  status = 301
+  force = true
 [build]
   publish = "."
 

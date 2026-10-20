@@ -42,3 +42,13 @@
   for = "/draft-*.html"
   [headers.values]
     X-Robots-Tag = "noindex, nofollow, noarchive"
+
+[[redirects]]
+  from = "/merch/sexiest-bookkeeper-mug/"
+  to = "/merch-sexiest-bookkeeper-mug.html"
+  status = 200
+
+[[redirects]]
+  from = "/merch/christmas-mug/"
+  to = "/merch-christmas-mug.html"
+  status = 200

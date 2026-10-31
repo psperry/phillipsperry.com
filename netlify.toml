@@ -1,5 +1,17 @@
 
 [[redirects]]
+  from = "/drafts/something-good-from-something-imperfect/"
+  to = "https://phillipsperry.com/articles/something-good-from-something-imperfect/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/draft-something-good-from-something-imperfect.html"
+  to = "https://phillipsperry.com/articles/something-good-from-something-imperfect/"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/drafts/whos-teaching-the-apprentices/"
   to = "https://phillipsperry.com/articles/whos-teaching-the-apprentices/"
   status = 301

@@ -52,3 +52,23 @@
   from = "/merch/christmas-mug/"
   to = "/merch-christmas-mug.html"
   status = 200
+
+[[redirects]]
+  from = "/stats/"
+  to = "/stats.html"
+  status = 200
+
+[[redirects]]
+  from = "/stats"
+  to = "/stats/"
+  status = 301
+
+[[headers]]
+  for = "/stats/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
+
+[[headers]]
+  for = "/stats.html"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow, noarchive"
